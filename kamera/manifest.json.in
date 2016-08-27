@@ -1,0 +1,17 @@
+{
+    "name": "kamera.username",
+    "description": "description of kamera",
+    "architecture": "@CLICK_ARCH@",
+    "title": "kamera",
+    "hooks": {
+        "kamera": {
+            "apparmor": "kamera/kamera.apparmor",
+            "desktop":  "kamera/kamera.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Firstname Surname <your@mail.com>",
+    "framework" : "ubuntu-sdk-15.04.6"
+}
+
+
