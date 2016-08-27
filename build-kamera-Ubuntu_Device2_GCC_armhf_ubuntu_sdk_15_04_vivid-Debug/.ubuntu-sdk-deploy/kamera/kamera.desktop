@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=kamera
+Exec=./qtc_device_debughelper.py app "qmlscene %U kamera/Main.qml"
+Icon=kamera/kamera.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+
