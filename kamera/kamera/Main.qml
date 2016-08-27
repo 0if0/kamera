@@ -48,7 +48,7 @@ MainView {
             Item {
                 Timer {
 
-                    interval: 3000; running: true; repeat: true
+                    interval: 2500; running: true; repeat: true
                     onTriggered:{
                         var ipadress="10.0.0.4"
                         var user = "simon"
