@@ -48,7 +48,7 @@ MainView {
             Item {
                 Timer {
 
-                    interval: 2500; running: true; repeat: true
+                    interval: 3000; running: true; repeat: true
                     onTriggered:{
                         var ipadress="10.0.0.4"
                         var user = "simon"
@@ -64,12 +64,11 @@ MainView {
 
             Image {
                 id: image
-                x: 100
-                y: 100
+                y: 70
                 source: "http://10.0.0.4/snapshot.cgi?user=simon&pwd=simon"
                 cache:false
-                height: units.gu(50)
-                width: units.gu(70)
+                height: units.gu(60)
+                width: units.gu(90)
                 anchors {
                     horizontalCenter: parent.horizontalCenter
                     //verticalCenter: parent.verticalCenter
